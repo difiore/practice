@@ -1,0 +1,15 @@
+---
+title: "Rmarkdown - Ryan"
+output:
+  html_document: default
+  pdf_document: default
+date: "2024-01-24"
+---
+-
+# Markdown
+-
+The chunk of code below adds 2 and 5
+```{r echo=FALSE, eval=FALSE}
+2 + 5
+```
+
