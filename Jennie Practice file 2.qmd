@@ -1,0 +1,30 @@
+---
+title: "Practice Quarto Document"
+author: "Jennie"
+format: html
+---
+
+## Practice file #2
+
+This is another practice file so I can learn about being a collaborator in a repository. Ideally, I'll figure out how to make the format better someday.
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
