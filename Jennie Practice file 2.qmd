@@ -6,7 +6,7 @@ format: html
 
 ## Practice file #2
 
-This is another practice file so I can learn about being a collaborator in a repository. Ideally, I'll figure out how to make the format better someday!
+This is another practice file so I can learn about being a collaborator in a repository. Ideally, I'll figure out how to make the format better someday.
 
 ## Quarto
 
