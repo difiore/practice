@@ -1,0 +1,12 @@
+---
+title: "New R Markdown - Brody Manquen"
+output: html_document
+date: "2024-01-24"
+---
+# Practice Markdown: Written code comments
+The chunk of code below calculates the time (in years) since the French Revolution.
+
+```{r}
+2024-1789
+```
+
