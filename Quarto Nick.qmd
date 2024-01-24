@@ -1,0 +1,25 @@
+---
+title: "Nick Quarto"
+author: "Nick"
+format: html
+---
+
+## Math Again
+
+```{r}
+1 + 1
+```
+
+
+```{r}
+#| echo: false
+library(tidyverse)
+f <- "/Users/nicholasrussell/Desktop/Grad/Stat Class/data-wrangling.csv"
+d <- read_csv(f, col_names = TRUE)
+bm <-d$Body_mass_female_mean
+bs <-d$Brain_Size_Species_Mean
+plot(log(bm), log(bs))
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
