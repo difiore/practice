@@ -1,0 +1,86 @@
+---
+title: "New R Markdown file - Daniel"
+author: "Daniel"
+date: "2024-01-24"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Markdown
+
+Hi nice to see y'all
+
+This code raises 2 to the third power
+```{r}
+2^3
+```
+
+
+```{r eval = FALSE}
+2^3
+```
+
+
+Step 1
+Clear environment and set default number format
+```{r}
+rm(list=ls())
+options(scipen=999999)
+```
+
+Load in necessary packages, set working directory, and load data
+```{r}
+library(easypackages)
+
+common_packages <- c("readxl",
+                     "car",
+                     "kableExtra",
+                     "modelsummary",
+                     "qqplotr",
+                     "ggsignif",
+                     "ggprism",
+                     "ggrepel",
+                     "gtools",
+                     "gridExtra",
+                     "jmv",
+                     "pdftools",
+                     "pwr",
+                     "webshot",
+                     "tidyverse",
+                     "magrittr")
+new_packages <- c("emayili")
+libraries(c(common_packages, new_packages))
+
+setwd("~/Desktop/Grad School/Spring 2024/Applied Data Analysis")
+
+df <- read_csv("Datasets/data-wrangling.csv", col_names = TRUE)
+```
+
+
+Use assignment pipe to add column
+```{r}
+
+df %<>% 
+  mutate(sciname = paste(Genus, Species, sep = " ") %>% toupper())
+
+df %>% 
+  select(Genus) %>% 
+  distinct()
+
+df %>% 
+  select(Genus) %>% 
+  distinct()
+
+gs <- df$MeanGroupSize
+```
+
+Vector Recycling 
+gs row 1 with c1 then gs row 2 with c2 then gs row 3 with c1 then gs row 4 with c2
+
+```{r}
+gs + c(1, 2)
+
+
+```
+

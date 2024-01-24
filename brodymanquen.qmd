@@ -1,0 +1,13 @@
+---
+title: "New Quarto - Brody Manquen"
+format: html
+---
+## When did Septimius Severus become the Roman Emperor?
+
+This code calculates the time *in years* since the ascension of **Septimius Severus** as the emperor of Rome.
+
+```{r}
+2024 - 193
+```
+
+
