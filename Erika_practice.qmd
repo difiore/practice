@@ -6,8 +6,6 @@ format: html
 
 ## Notes for class
 
-Hoping this works *fingers crossed*
-
 **ToDo**
 
 - Drink coffee
@@ -15,8 +13,7 @@ Hoping this works *fingers crossed*
 - Debug code
 
 ```{r}
-install.packages(tidyverse)
-library(tidyverse)
+
 ```
 
 You can add options to executable code like this 
