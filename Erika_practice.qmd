@@ -1,0 +1,29 @@
+---
+title: "Erika practice"
+author: "Erika Carlson"
+format: html
+---
+
+## Notes for class
+
+Hoping this works *fingers crossed*
+
+**ToDo**
+
+- Drink coffee
+- Write code
+- Debug code
+
+```{r}
+install.packages(tidyverse)
+library(tidyverse)
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
