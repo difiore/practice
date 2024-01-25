@@ -1,0 +1,17 @@
+---
+title: "Sydney R Markdown"
+date: "2024-01-25"
+output: html_document
+---
+## R Markdown
+The chunk of code below adds 2 and 3 together
+```{r}
+2+3
+```
+
+
+
+```{r}
+
+```
+

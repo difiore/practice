@@ -1,0 +1,21 @@
+---
+title: "Sydney Quarto"
+format: html
+---
+
+## Quarto
+
+
+## Running Code
+
+
+```{r}
+1 + 1
+```
+
+
+```{r}
+#| echo: false
+2 * 2
+```
+
