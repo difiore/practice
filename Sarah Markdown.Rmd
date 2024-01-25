@@ -1,0 +1,23 @@
+---
+title: "R Markdown Sarah"
+author: "Sarah"
+date: "2024-01-25"
+---
+
+Hi! This is my R markdown document!
+
+Math
+```{r eval=FALSE}
+x<-5+5
+y<-7+7
+z<-x*y
+print(z)
+```
+
+Answer
+```{R echo=FALSE}
+x<-5+5
+y<-7+7
+z<-x*y
+print(z)
+```
