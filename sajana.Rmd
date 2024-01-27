@@ -1,0 +1,19 @@
+---
+title: "Sajana R markdown"
+output: html_document
+date: "2024-01-27"
+---
+
+
+## R Markdown
+
+This is my second attemt in Rmarkdown. R markdown is easy way of creating pdf using code
+
+# Markdown
+Lets code multiplication using Rmarkdown
+
+
+
+```{r}
+8*10
+```
