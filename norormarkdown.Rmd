@@ -1,0 +1,35 @@
+---
+title: "NoroRMarkdown"
+author: "noro"
+date: "2024-01-25"
+output: html_document
+---
+
+
+## inside the box
+
+
+
+```{r}
+cat( " Hello, this is my first excercise.")
+
+```
+
+## outside the box
+
+**Hi Tony, I will see you on Tuesday working on the samples**
+
+*Hi Tony, I will see you on Tuesday working on the samples.*
+
+<u> Hi Tony, I will see you on Tuesday working on the samples </u>.
+
+
+```{r}
+my_list <- list(item1 = "bleu", item2 = "black", item3 = "pink", item4 = "yellow")
+
+print(my_list)
+
+
+```
+
+
