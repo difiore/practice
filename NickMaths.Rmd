@@ -1,0 +1,26 @@
+---
+title: "R Markdown (Nick)"
+author: "NICK"
+date: "2024-01-24"
+output: html_document
+---
+
+## Math
+
+```{r eval = FALSE}
+2 + 2 - 100
+```
+
+## Answer
+
+```{r echo= FALSE}
+print("negative ninety-six")
+```
+
+
+```{r echo= FALSE}
+library(tidyverse)
+
+
+
+```
