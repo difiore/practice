@@ -1,0 +1,62 @@
+---
+title: "notesnoro"
+author: "noro"
+date: "2024-01-28"
+output: html_document
+---
+
+install.packages(c("emayili", "tidyverse"))
+
+
+library (emayili, tidyverse)
+#emayili
+    
+message_gmail <- envelope(from = "nurumalala@gmail.com", to = "nurumalala@gmail.com",
+                          subject = "Sending a message using {emayili}", text = "Hello")
+
+
+
+message_gmail <- envelope() |>
+  from("nurumalala@gmail.com") |>
+  to("nurumalala@gmail.com") |>
+  subject("Sending a message using {emayili}") |>
+  text("Hello! This is a plain text message sent from a Gmail account.")
+
+message_gmail <- envelope() %>%
+  from("nurumalala@gmail.com") %>%
+  to("nurumalala@gmail.com") %>%
+  subject("Sending a message using {emayili}") %>%
+  text("Hello! This is a plain text message sent from a Gmail account.")
+
+smtp_gmail <- server(host = "smtp.gmail.com", port = 465, max_times = 1, username = "nurumalala@gmail.com",
+                     password = "Dadamalala2023")
+
+
+smtp_gmail(message_gmail, verbose = TRUE)
+
+#tidyverse
+
+
+
+
+#introduction#
+
+2+2
+a = c(5,6,7,8)
+a
+mean(a)
+ #or#
+
+a <- c(5,6,7,8) -> b
+a
+b
+
+2==3
+a==b
+
+a <- c(56,6,7,20)
+
+#packages#
+
+detach (packages:emayili)
+
