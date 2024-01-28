@@ -1,0 +1,32 @@
+---
+title: "Noro Quarto"
+author: "Noro"
+format: html
+editor: visual
+---
+
+## This is my Quarto file
+
+# calculation 1
+
+```{r}
+1 + 1
+```
+
+## Calculation 2
+
+```{r}
+3 * 1
+
+```
+
+### Calculation 3
+
+```{r}
+#Number of people working in the lab
+student <- 1+3
+professor <- 5+8
+total_people <- student + professor
+total_people
+
+```
