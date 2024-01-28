@@ -1,0 +1,16 @@
+---
+title: "Jamie's Practice Rmd"
+output: html_document
+date: "2024-01-28"
+---
+
+# **Markdown Practice**
+
+### **Hi folks, nice to see you, too!**
+
+The chunk of code below adds 3 and 4 together...
+
+```{r}
+3+4
+```
+

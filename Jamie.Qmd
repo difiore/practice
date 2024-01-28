@@ -1,0 +1,13 @@
+---
+title: "Jamie's Practice Quarto"
+format: html
+---
+
+# **Hello, again!**
+
+## Here, again, the chunk of code below adds 3 and 4 together...
+
+```{r}
+3 + 4
+```
+
